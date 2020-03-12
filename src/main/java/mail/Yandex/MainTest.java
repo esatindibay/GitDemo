@@ -35,6 +35,7 @@ public class MainTest extends base{
 		//Assert.assertTrue(first.checkMan().isDisplayed());
 		log.info("the man is appeared");
 		first.login().click();
+		System.out.println("bu bir eklemedir");
 		
 		loginPage lp = new loginPage(driver);
 		log.info("now login page is loaded");
