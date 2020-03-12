@@ -56,6 +56,10 @@ public class MainTest extends base{
 		i.logOut1().click();
 		i.logOut2().click();
 	}
+	@Test
+	public void branch(){
+		System.out.println("this is trial for branch");
+	}
 	@AfterTest
 	public void teatdown(){
 		driver.close();
